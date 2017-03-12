@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="gaomengzhendeMacBook-Pro.local" name="cn.itcast.estore.dao.UserDaoTest" skipped="0" tests="4" time="0.482" timestamp="2015-12-02T18:23:26">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="ant.file.estore" value="/Users/gaomengzhen/Documents/651/651project/现定/estore/build.xml" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.XPC_SERVICE_NAME" value="org.eclipse.platform.ide.125560" />
+    <property name="eclipse.pdebuild.templates" value="/Users/gaomengzhen/Downloads/Eclipse 2.app/Contents/Eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes" />
+    <property name="env.TMPDIR" value="/var/folders/f3/vh8s9hz1347br5cn5sffxh200000gn/T/" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/local/apache-ant-1.9.6" />
+    <property name="java.runtime.version" value="1.8.0_60-b27" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.6WvZVfPVL4/Render" />
+    <property name="user.name" value="gaomengzhen" />
+    <property name="env.USER" value="gaomengzhen" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x19:0x34" />
+    <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="user.language" value="zh" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="ant.project.name" value="estore" />
+    <property name="env.APP_ICON_17583" value="../Resources/Eclipse.icns" />
+    <property name="java.version" value="1.8.0_60" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_17583" value="1" />
+    <property name="ant.file.type.estore" value="file" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../../../../Downloads/Eclipse 2.app/Contents/Eclipse/" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="CN" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="gaomengzhen" />
+    <property name="ant.file" value="/Users/gaomengzhen/Documents/651/651project/现定/estore/build.xml" />
+    <property name="os.version" value="10.10.4" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.60-b23" />
+    <property name="ant.library.dir" value="/usr/local/apache-ant-1.9.6/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="eclipse.pdebuild.scripts" value="/Users/gaomengzhen/Downloads/Eclipse 2.app/Contents/Eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts//" />
+    <property name="user.home" value="/Users/gaomengzhen" />
+    <property name="target" value="1.5" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/gaomengzhen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner cn.itcast.estore.dao.UserDaoTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/gaomengzhen/Documents/651/651project/现定/estore/junit/TEST-cn.itcast.estore.dao.UserDaoTest.xml crashfile=/Users/gaomengzhen/Documents/651/651project/现定/estore/junitvmwatcher2140717830620923469.properties propsfile=/Users/gaomengzhen/Documents/651/651project/现定/estore/junit906580386860441495.properties" />
+    <property name="java.class.path" value="/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/classes:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/c3p0-0.9.1.2.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/commons-beanutils-1.8.3.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/commons-collections-3.2.1.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/commons-dbutils-1.4.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/commons-fileupload-1.2.1.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/commons-io-1.4.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/commons-lang-2.5.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/ezmorph-1.0.6.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/json-lib-2.4-jdk15.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/jstl.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/mail.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar:/Users/gaomengzhen/Documents/651/651project/现定/estore/WebRoot/WEB-INF/lib/standard.jar:/Library/apache-tomcat-8.0.28/lib/annotations-api.jar:/Library/apache-tomcat-8.0.28/lib/catalina-ant.jar:/Library/apache-tomcat-8.0.28/lib/catalina-ha.jar:/Library/apache-tomcat-8.0.28/lib/catalina-storeconfig.jar:/Library/apache-tomcat-8.0.28/lib/catalina-tribes.jar:/Library/apache-tomcat-8.0.28/lib/catalina.jar:/Library/apache-tomcat-8.0.28/lib/ecj-4.4.2.jar:/Library/apache-tomcat-8.0.28/lib/el-api.jar:/Library/apache-tomcat-8.0.28/lib/jasper-el.jar:/Library/apache-tomcat-8.0.28/lib/jasper.jar:/Library/apache-tomcat-8.0.28/lib/jsp-api.jar:/Library/apache-tomcat-8.0.28/lib/servlet-api.jar:/Library/apache-tomcat-8.0.28/lib/tomcat-api.jar:/Library/apache-tomcat-8.0.28/lib/tomcat-coyote.jar:/Library/apache-tomcat-8.0.28/lib/tomcat-dbcp.jar:/Library/apache-tomcat-8.0.28/lib/tomcat-i18n-es.jar:/Library/apache-tomcat-8.0.28/lib/tomcat-i18n-fr.jar:/Library/apache-tomcat-8.0.28/lib/tomcat-i18n-ja.jar:/Library/apache-tomcat-8.0.28/lib/tomcat-jdbc.jar:/Library/apache-tomcat-8.0.28/lib/tomcat-jni.jar:/Library/apache-tomcat-8.0.28/lib/tomcat-util-scan.jar:/Library/apache-tomcat-8.0.28/lib/tomcat-util.jar:/Library/apache-tomcat-8.0.28/lib/tomcat-websocket.jar:/Library/apache-tomcat-8.0.28/lib/websocket-api.jar:/Users/gaomengzhen/Downloads/Eclipse 2.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/gaomengzhen/Downloads/Eclipse 2.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/gaomengzhen/Documents/selenium/selenium-server-standalone-2.48.2.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/selenium-java-2.48.2-srcs.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/selenium-java-2.48.2.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/apache-mime4j-0.6.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/bsh-2.0b4.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/cglib-nodep-2.1_3.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/commons-codec-1.10.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/commons-collections-3.2.1.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/commons-el-1.0.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/commons-exec-1.3.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/commons-io-2.4.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/commons-lang3-3.4.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/commons-logging-1.2.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/cssparser-0.9.16.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/gson-2.3.1.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/guava-18.0.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/hamcrest-core-1.3.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/hamcrest-library-1.3.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/htmlunit-2.18.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/htmlunit-core-js-2.17.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/httpclient-4.5.1.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/httpcore-4.4.3.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/httpmime-4.5.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jasper-compiler-5.5.15.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jasper-compiler-jdt-5.5.15.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jasper-runtime-5.5.15.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/javax.servlet-api-3.1.0.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jcommander-1.48.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jetty-continuation-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jetty-http-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jetty-io-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jetty-jmx-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jetty-security-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jetty-server-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jetty-servlet-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jetty-servlets-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jetty-util-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jna-4.1.0.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jna-platform-4.1.0.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/jsp-api-2.0.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/junit-4.12.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/nekohtml-1.9.22.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/netty-3.5.7.Final.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/phantomjsdriver-1.2.1.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/sac-1.3.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/serializer-2.7.2.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/testng-6.9.6.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/websocket-api-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/websocket-client-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/websocket-common-9.2.13.v20150730.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/xalan-2.7.2.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/xercesImpl-2.11.0.jar:/Users/gaomengzhen/Documents/selenium/selenium-2.48-2.2/libs/xml-apis-1.4.01.jar:/usr/local/apache-ant-1.9.6/lib/ant-launcher.jar:/usr/local/apache-ant-1.9.6/lib/ant.jar:/usr/local/apache-ant-1.9.6/lib/ant-junit.jar:/usr/local/apache-ant-1.9.6/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_18463" value="1" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="env.HOME" value="/Users/gaomengzhen" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ANT_HOME" value="/usr/local/apache-ant-1.9.6" />
+    <property name="java.io.tmpdir" value="/var/folders/f3/vh8s9hz1347br5cn5sffxh200000gn/T/" />
+    <property name="eclipse.pdebuild.home" value="/Users/gaomengzhen/Downloads/Eclipse 2.app/Contents/Eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/.//" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.uxEhDmx8bd/Listeners" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/gaomengzhen/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/gaomengzhen/Documents/651/651project/现定/estore" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/gaomengzhen/Documents/651/651project/现定/estore" />
+    <property name="env.JAVA_MAIN_CLASS_18463" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/usr/local/apache-ant-1.9.6/lib/ant.jar" />
+    <property name="source" value="1.5" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build,BookDaoTest,BookServiceTest,CategoryDaoTest,UserDaoTest,UserServiceTest,junitreport" />
+  </properties>
+  <testcase classname="cn.itcast.estore.dao.UserDaoTest" name="testFindByUsernameAndPassword" time="0.342" />
+  <testcase classname="cn.itcast.estore.dao.UserDaoTest" name="testSave" time="0.001" />
+  <testcase classname="cn.itcast.estore.dao.UserDaoTest" name="testFindByCode" time="0.002" />
+  <testcase classname="cn.itcast.estore.dao.UserDaoTest" name="testFindByUsername" time="0.001" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[十二月 02, 2015 1:23:26 下午 com.mchange.v2.log.MLog <clinit>
+信息: MLog clients using java 1.4+ standard logging.
+十二月 02, 2015 1:23:26 下午 com.mchange.v2.c3p0.C3P0Registry banner
+信息: Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+十二月 02, 2015 1:23:26 下午 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+信息: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge0wc9drq7y6r25mq0o|3632be31, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge0wc9drq7y6r25mq0o|3632be31, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/bookstore, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+]]></system-err>
+</testsuite>
